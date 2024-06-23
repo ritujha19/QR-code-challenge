@@ -35,3 +35,14 @@ p{
     font-weight: 500;
     color:hsl(219, 11%, 48%);
 }
+/* for mobile  */
+@media only screen and (max-width: 375px) {
+    [class*="Qr-code"]{
+        height: 100%;
+    }
+}
+@media only screen and (max-width: 1440px) {
+    [class*="Qr-code"]{
+        height: 70vh;
+    }
+}
